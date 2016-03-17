@@ -1,0 +1,40 @@
+* { outline: 1px solid red; }
+
+li {
+	list-style-type: none;
+}
+
+body {
+	margin: 20px;
+	padding: 20px;
+	font-family: helvetica;
+	color: #3B393A;
+}
+
+.furniture-content {
+	width: 40%;
+	float: left;
+	display: inline-block;
+	margin: 20px;
+	padding: 20px;
+
+}
+
+#extra-content {
+	position: absolute;
+	margin-top: 500px;
+}
+
+/*.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+/** html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
